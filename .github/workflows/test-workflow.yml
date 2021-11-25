@@ -1,7 +1,7 @@
 name: Build Manuals
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
 jobs:
   Build-Manuals:
     runs-on: ubuntu-latest
